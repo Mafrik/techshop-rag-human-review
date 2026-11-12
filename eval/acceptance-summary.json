@@ -1,0 +1,22 @@
+# Redacted aggregate from the local synthetic acceptance artifacts dated 2026-11-12.
+{
+  "backend": "local Supabase Postgres + pgvector",
+  "corpus_chunks": 12,
+  "corpus_text_included": false,
+  "retrieval_and_safety_checks": {"passed": 9, "total": 9},
+  "n8n_synthetic_execution": {
+    "cases_completed": 6,
+    "node_runs_passed": 50,
+    "node_runs_total": 50,
+    "drafts_for_human_review": 4,
+    "escalations": 2,
+    "audit_receipts_persisted": 6
+  },
+  "external_customer_actions": 0,
+  "production_eligible": false,
+  "limitations": [
+    "Synthetic requests only; no live customer inbox or order lookup API.",
+    "The acceptance set is small and does not establish broad generated-answer quality.",
+    "Source FAQ text and course brief are not redistributed."
+  ]
+}
